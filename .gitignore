@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+.firebase/
 /.pnp
 .pnp.js
 
@@ -10,6 +11,9 @@
 
 # production
 /build
+
+#Secrets
+/src/config/secrets.js
 
 # misc
 .DS_Store
